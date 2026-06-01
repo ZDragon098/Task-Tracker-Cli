@@ -82,12 +82,15 @@ async function main(){
         console.log(`✅ Đã đánh dấu công việc "${taskName}" là hoàn thành!`);
         break;
    
-     /*
+    /* 
     case 'listDone':
     case 'listPending':
     case 'clear':
     */
-
+    case 'clear':
+        await saveTasks([]);
+        console.log("🧹 Đã xóa tất cả công việc trong danh sách!");
+        break;
     default:
         console.log('Unknown command. Please use "add" or "list".');
     }
