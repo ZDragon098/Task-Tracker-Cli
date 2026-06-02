@@ -1,7 +1,7 @@
 # Task Tracker CLI
 
-Một ứng dụng dòng lệnh đơn giản để quản lý công việc
-Vi đây là một project chạy bằng lệnh (Project CLI) nên không có giao diện (Gui).
+Một ứng dụng dòng lệnh đơn giản để quản lý công việc.
+Vì đây là một project chạy bằng lệnh (Project CLI) nên không có giao diện (Gui).
 
 ## Cài đặt
 
@@ -65,3 +65,4 @@ node index.js clear
 - Dữ liệu được lưu trong file `tasks.json`.
 - Mỗi công việc có các trường: `id`, `title`, `status`, `createAt`, `updateAt`.
 - `status` có thể là `todo`, `in-progress`, hoặc `done`.
+- Project được lấy ý tưởng từ: `https://roadmap.sh/projects/task-tracker`.
