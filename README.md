@@ -1,6 +1,7 @@
 # Task Tracker CLI
 
 Một ứng dụng dòng lệnh đơn giản để quản lý công việc
+Vi đây là một project chạy bằng lệnh (Project CLI) nên không có giao diện (Gui).
 
 ## Cài đặt
 
